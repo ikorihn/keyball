@@ -45,10 +45,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [3] = LAYOUT_universal(
-    RGB_TOG  , _______  , _______  , _______  , _______  , _______  ,                                        RGB_M_P  , RGB_M_B  , RGB_M_R  , RGB_M_SW , RGB_M_SN , RGB_M_K  ,
-    RGB_MOD  , RGB_HUI  , RGB_SAI  , RGB_VAI  , _______  , SCRL_DVI ,                                        RGB_M_X  , RGB_M_G  , RGB_M_T  , RGB_M_TW , _______  , KBC_RST  ,
-    RGB_RMOD , RGB_HUD  , RGB_SAD  , RGB_VAD  , _______  , SCRL_DVD ,                                        CPI_D1K  , CPI_D100 , CPI_I100 , CPI_I1K  , _______  , KBC_SAVE ,
-                  QK_RBT  , KBC_RST  , _______  ,        _______  , _______  ,                   _______  , _______  , _______       , _______  , QK_RBT
+    _______ , _______  , KC_7      , KC_8    , KC_9     , _______ ,                                         _______  , _______  , _______  , _______ , _______, _______  ,
+    _______ , _______  , KC_4      , KC_5    , KC_6     , _______ ,                                         SCRL_DVD  , SCRL_DVI , _______  , _______ , _______  , KBC_RST  ,
+    _______ , _______  , KC_1      , KC_2    , KC_3     , _______ ,                                         CPI_D1K  , CPI_D100 , CPI_I100 , CPI_I1K  , KBC_SAVE , _______ ,
+                  QK_RBT  , KBC_RST  , KC_0      , _______  , _______  ,                         _______  , _______  , _______       , _______  , _______
   ),
 
   [4] = LAYOUT_universal(
