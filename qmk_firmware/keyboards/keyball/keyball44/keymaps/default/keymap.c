@@ -25,9 +25,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // keymap for default
   [0] = LAYOUT_universal(
     KC_TAB   , KC_Q     , KC_W     , KC_E     , KC_R     , KC_T     ,                                        KC_Y     , KC_U     , KC_I     , KC_O     , KC_P     , KC_MINS  ,
-    KC_LCTL  , KC_A     , KC_S     , KC_D     , LT(1, KC_F) , KC_G  ,                                        KC_H     , KC_J     , KC_K     , KC_L     , KC_SCLN  , LT(1, KC_QUOT),
+    KC_LCTL  , C_S_T(KC_A), LAG_T(KC_S), KC_D , LT(1, KC_F) , LGUI_T(KC_G),                                  LAG_T(KC_H), LGUI_T(KC_J), RALT_T(KC_K), RCTL_T(KC_L), C_S_T(KC_SCLN), LT(1, KC_QUOT),
     KC_LSFT  , KC_Z     , KC_X     , KC_C     , KC_V     , KC_B     ,                                        KC_N     , KC_M     , KC_COMM  , KC_DOT   , KC_SLSH  , RSFT_T(KC_LBRC)  ,
-              KC_LALT, KC_LGUI,  LT(2, KC_SPC), KC_GRV, LT(1, KC_BSLS),                             RSFT_T(KC_BSPC), LT(2, KC_ENT), _______,     _______  , LT(3, KC_RBRC)
+              KC_LALT, KC_LGUI,  LT(2, KC_SPC), KC_GRV, LT(1, KC_BSLS),                             LGUI_T(KC_BSPC), LT(2, KC_ENT), _______,     _______  , LT(3, KC_RBRC)
   ),
 
   [1] = LAYOUT_universal(

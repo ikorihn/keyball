@@ -75,5 +75,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define AUTO_MOUSE_TIME 500
 
 #define KEYBALL_SCROLLSNAP_ENABLE 0
-#define KEYBALL_CPI_DEFAULT 600
+#define KEYBALL_CPI_DEFAULT 1000
 #define KEYBALL_SCROLL_DIV_DEFAULT 7
